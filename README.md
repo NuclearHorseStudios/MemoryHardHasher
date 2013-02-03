@@ -10,7 +10,7 @@ though.  Assumes OpenSSL/SHA256.
 
      $ make
 
-**EXAMPLE USAGE OUTPUT**
+**EXAMPLE USAGE / OUTPUT**
 
 Pass a string to hash and a strength.  Strength is used to determine the number 
 of iterations of the hashed password to use to fill out memory.  Memory usage 
