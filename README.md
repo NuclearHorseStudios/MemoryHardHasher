@@ -11,6 +11,7 @@ though.  Assumes OpenSSL/SHA256.
      $ make
 
 **EXAMPLE USAGE OUTPUT**
+
 Pass a string to hash and a strength.  Strength is used to determine the number 
 of iterations of the hashed password to use to fill out memory.  Memory usage 
 will be correlated with 2^strength.  Strength of 24 uses about 16.7MB of memory.
