@@ -3,8 +3,11 @@ MemoryHardHasher
 
 An implementation of memory hard hashing in C++.  
 
-Created as an exercise in C++, use at your own risk.  It all seems to work 
-though.  Assumes OpenSSL/SHA256.
+Created as an exercise in C++, use at your own risk.  This is my first 
+non-trivial C++ prorgram, so I'm certain there's all sorts of shit wrong with 
+it.  
+
+It all seems to work though.  Assumes OpenSSL/SHA256.
 
 **INSTALLATION**
 
