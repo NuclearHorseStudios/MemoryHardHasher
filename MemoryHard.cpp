@@ -3,7 +3,7 @@
 #include <string>
 #include <ctime>
 #include <cmath>
-#include "MemoryHard.h"
+#include "MemoryHard.hpp"
 
 MemoryHard::MemoryHard (void)
 {

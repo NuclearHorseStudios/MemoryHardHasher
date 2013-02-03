@@ -1,5 +1,5 @@
 #include <iostream>
-#include "MemoryHard.h"
+#include "MemoryHard.hpp"
 using namespace std;
 
 int main (int argc, char* argv[])
