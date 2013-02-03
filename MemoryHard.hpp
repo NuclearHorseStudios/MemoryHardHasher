@@ -14,8 +14,8 @@ class MemoryHard
         string          HashHard(unsigned char* message, int strength);
         void            Hash256 (char* message);
         unsigned long   SumHash (unsigned char* hash);
-        unsigned char*  XorHash(unsigned char* a, 
-                                unsigned char* b, 
-                                unsigned char* r);
+        unsigned char*  XorHash (unsigned char* a, 
+                                 unsigned char* b, 
+                                 unsigned char* r);
         string          HashToString (unsigned char* hash);
 };
