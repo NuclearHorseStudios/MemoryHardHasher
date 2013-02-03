@@ -19,14 +19,14 @@ void MemoryHard::InitSSL (void)
 
 string MemoryHard::HashHard(unsigned char* message, int strength)
 {
-    time_t  timeStarted =   time(NULL);
-    long    n           =   (long long) ceil(pow(2, (double) strength));
-            hashBuffer  =   (unsigned char*) 
-                            calloc(n, sizeof(char) * SHA256_DIGEST_LENGTH);
+    time_t      timeStarted =   time(NULL);
+    long long   n           =   (long long) ceil(pow(2, (double) strength));
+                hashBuffer  =   (unsigned char*) 
+                                calloc(n, sizeof(char) * SHA256_DIGEST_LENGTH);
     
     Hash256((char *) message);
 
-    long i;
+    long long i;
     for (long i = 0; i < n; i += SHA256_DIGEST_LENGTH)
     {
         memcpy(&hashBuffer[i], currentHash, SHA256_DIGEST_LENGTH);
