@@ -1,11 +1,17 @@
 MemoryHardHasher
 ================
 
+Don't actually use this 
+
 An implementation of memory hard hashing in C++.  
 
-Created as an exercise in C++, use at your own risk.   
+Don't actually use this 
+
+Created as an exercise in C++, don't use this.   
 I'm certain there's all sorts of shit wrong with 
 it.  
+
+Don't actually use this 
 
 It all seems to work though.  Assumes OpenSSL/SHA256.
 
